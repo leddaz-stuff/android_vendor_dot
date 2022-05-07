@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Lawnicons
+$(call inherit-product, vendor/lawnicons/product.mk)
+
 # Required packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
